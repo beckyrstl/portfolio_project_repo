@@ -1,28 +1,32 @@
 body {
-  background-color: #c5c1c0;
+  background-color: #d1e3ef;
   margin: 0;
-  padding: 0;
 }
 
 header {
   padding: 15px;
-  background-color: #304b57;
+  background-color: #002d62;
 }
 
 a {
   text-decoration: none;
-  color: #ddcc04;
+  color: #ff7309;
 }
 
 a:hover {
-  color: #fff;
+  color: #006ab3;
+}
+
+.no-style {
+  text-decoration: none;
+  color: #002d62;
 }
 
 nav {
   font-size: 22px;
   font-weight: bold;
   color: #fff;
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "Oswald", "Arial", sans-serif;
 }
 
 .navigation {
@@ -31,61 +35,65 @@ nav {
 }
 
 .thumbnail {
-  margin-left: 15%;
+  margin-left: 10%;
   float: left;
-  padding-right: 50px;
+  margin-right: 40px;
+  border: 10px solid #002d62;
 }
 
 h1 {
-  font-family: "Lato", Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  text-transform: lowercase;
   font-size: 32px;
   text-align: center;
-  margin-top: 25px;
+  margin: 30px 0;
   display: block;
+  color: #002d62;
 }
 
 .about {
-  font-family: "Lato", Arial, sans-serif;
+  font-family: "PT Serif", serif;
   display: inline-block;
 }
 
 p {
-  margin: 0 15px;
-  font-family: "Lato", sans-serif;
-  margin-top: 10px;
+  font-family: "PT Serif", serif;
+  margin-right: 10%;
+  color: #242423;
 }
 
-h3 {
-  font-family: "Lato", Arial, sans-serif;
+h4 {
+  font-family: "Oswald", sans-serif;
+  color: #006ab3;
+  text-transform: uppercase;
 }
 
 .experience {
   display: block;
-  font-family: "Lato", Arial, sans-serif;
-  margin-left: 5%;
+  font-family: "PT Serif", sans-serif;
+  margin-left: 10%;
 }
 
 .skills {
-  display: block;
-  font-family: "Lato", Arial, sans-serif;
-  margin-left: 5%;
+  display: inline-block;
+  font-family: "PT Serif", sans-serif;
+  margin-left: 10%;
+  background-color: #ff7309;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
 }
 
-.project1 {
+.project {
     display: inline-block;
     padding: 50px 75px;
-    background-color: #304b57;
-    color: #fff;
-    margin-left: 5%;
-    border: 5px solid #ddcc04;
+    background-color: #002d62;
+    margin-left: 10%;
+    box-shadow: 8px 8px #006ab3;
 }
 
-.project2 {
-    display: inline-block;
-    padding: 50px 75px;
-    background-color: #304b57;
+.project p {
     color: #fff;
-    margin-left: 5%;
-    border: 5px solid #ddcc04;
 }
